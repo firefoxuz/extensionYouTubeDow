@@ -1,0 +1,26 @@
+{
+    "manifest_version": 2,
+    "name": "DalerDownloader(for_Youtube.com)",
+    "description": "Bu extetion youtube.com saytidan videolar yuklab olishga yordam beradi. 
+     Ishlatish uchun youtube.com ga kiring va hohlagan video ustiga bosing, keyin esa extention ustiga bosing.
+     Sizga yangi oynada yuklab olish chiqadi!!!",
+    "version" : "1.0",
+    "browser_action": {
+        "default_icon": "dow.png",
+        "default_title": "Downloader for Youtube"
+    },
+
+    "icons": {
+        "16": "dow.png",
+        "48": "dow.png",
+        "128": "dow.png"
+    },
+
+    "permissions": [
+        "tabs"
+    ],
+
+    "background": {
+        "scripts": ["background.js"]
+    }
+}
